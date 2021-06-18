@@ -1,0 +1,366 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e7e7e7;
+}
+
+header {
+    height: 120px;
+    width: 100%;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header-top {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}
+
+.brand {
+    width: 20%;
+    float: left;
+    margin-top: 16px;
+}
+.brand img {
+    width: 100%;
+}
+.header-basket-search, nav {
+    margin-left: 3%;
+    width: 77%;
+    float: left;
+}
+
+.header-basket-search ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+}
+
+.top-menu {
+    height: 32px;
+    line-height: 32px;
+}
+
+.header-basket-search ul li {
+    float: left; 
+    margin: 0 10px;
+}
+
+.header-search {
+    float: right;
+    width: 73%;
+    height: 48px;
+    line-height: 48px;
+}
+
+.header-basket-search ul li a {
+    color: #fff;
+}
+
+.search-divide {
+    width: 75%;
+    float: left;
+}
+
+.search-divide input{
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 20px;
+}
+
+.search-divide i {
+    position: absolute;
+    background-color: red;
+    margin-left: -30px;
+    padding: 4px 9px;
+    font-size: 12px;
+    margin-top: 15.2px;
+    color: #fff;
+}
+
+.basket-divide {
+    width: 22%;
+    float: left;
+    margin-left: 3%;
+}
+
+.basket-divide i {
+    color: #fff;
+    background-color: red;
+    padding: 6px;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+.basket-box {
+    width: 18%;
+    float: left;
+    margin-left: 2%;
+}
+
+.baket-info {
+    width: 60px;
+    margin-left: 9px;
+    float: left;
+    color: #fff;
+    position: relative;
+    bottom: 6px;
+    height: 50px;
+}
+
+.baket-info span, .baket-info h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.baket-info h4 {
+    font-size: 11px;
+    position: relative;
+    bottom: 36px;
+}
+
+.baket-info span {
+    font-size: 10px;
+}
+
+.header-menu {
+    width: 100%;
+    height: 40px;
+    background-color: red;
+}
+
+.toggle-category {
+    width: 20%;
+    float: left;
+    height: 50px;
+    line-height: 42px;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+    width: 16%;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-catalog {
+    margin-top: 0;
+    width: 100%;
+    height: 324px;
+    clear: both;
+}
+
+.left-collections {
+    width: 19%;
+    background-color: #fff;
+    padding-left: 1%;
+    float: left;
+}
+
+.left-collections ul { 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.left-collections ul li{ 
+    height: 33px;
+    line-height: 30px;
+    margin-top: 3px;
+}
+
+.left-collections ul li a {
+    color: black;
+    text-decoration: none;
+ }
+
+ .left-collections ul li a i {
+     margin-right: 7px;
+ }
+
+ .new-collections {
+     margin-left: 3%;
+     width: 77%;
+     float: left;
+     /* background-color: blueviolet; */
+     height: 324px;
+ }
+
+ .new-collection-describe {
+    height: 270px;
+    width: 100%;
+    background-image: url(../img/depositphotos_169835894-stock-photo-smiling-elegant-girl-showing-white.png);
+    background-size: contain;
+ }
+
+ .new-collection-save {
+    width: 60%;
+    float: left;
+    text-align: center;
+    margin-top: 40px;
+ }
+
+ .new-collection-content {
+    height: 52px;
+    color: #fff;
+     background-color: red;
+ }
+
+ .collection-content-item {
+     width: 33%;
+     float: left;
+     text-align: center;
+ }
+
+ .collection-content-item h3, .collection-content-item p {
+     margin: 2px 0 0 0;
+ }
+
+
+
+.new-products {
+    margin-top: 50px;
+}
+
+ .hot-deals {
+    width: 20%;
+    height: 350px;
+    float: left;
+    background-color: #fff; 
+ }
+
+ .hot-deals-slide img {
+    width: 90%;
+    height: 180px;
+    object-fit: contain;
+ }
+
+ .hot-deals-head h3, .all-new-products-head h3 {
+    margin: 0;
+    width: 60%;
+    float: left;
+    margin-left: 4%;
+    font-family: sans-serif;
+    font-size: 17px;
+ }
+
+ .hot-deals-head {
+    height: 30px;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    border-bottom: solid 1.2px #c5c5c536;
+}
+
+
+.slide-item {
+    text-align: center;
+}
+
+.slide-item-content h4, .slide-item-content h5 {
+    font-weight: 400;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    color: #7c7c7c;
+}
+
+.slide-item-content .cureent-price {
+    font-weight: 900;
+    margin-left: 13px;
+    font-size: 18px;
+}
+
+.slide-item-content .old-price {
+    text-decoration: line-through;
+}
+
+.slide-item-content .stars i {
+    color: #ffc107bf;
+    font-size: small;
+}
+
+.hot-deals-slide .owl-nav, .all-new-products-slider .owl-nav {
+    position: absolute;
+    top: -38px;
+    right: 12px;
+    display: block !important;
+}
+
+.all-new-products-slider .owl-nav {
+    right: -9px;
+}
+
+.hot-deals-slide .owl-nav button, .all-new-products-slider .owl-nav button {
+    margin: 0 4px;
+    background-color: #bababa !important;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    color: #fff !important;
+}
+
+.hot-deals-slide .owl-nav button:hover, .all-new-products-slider .owl-nav button:hover {
+    background-color: red !important;
+}
+
+.hot-deals-slide .owl-nav button:focus, .all-new-products-slider .owl-nav button:focus {
+    outline: none;
+}
+
+.hot-deals-slide .owl-nav button span, .all-new-products-slider .owl-nav button span{
+    position: relative;
+    bottom: 2px;
+}
+
+.all-new-products {
+    margin-left: 3%;
+    width: 75%;
+    padding: 0 1%;
+    float: left;
+}
+
+.all-new-products-head h3 {
+    width: 20%;
+    margin-left: 0;
+}
+
+.all-new-products-head ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 40%;
+    float: right;
+    position: relative;
+    right: 10px;
+
+}
+
+.all-new-products-head {
+    height: 50px;
+    line-height: 40px;
+}
+
+.all-new-products-head ul li {
+    width: 25%;
+    float: left;
+    cursor: pointer;
+}
+
+.all-new-products-slider .owl-nav {
+    display: block !important;
+}

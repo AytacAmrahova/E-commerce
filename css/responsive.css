@@ -1,0 +1,184 @@
+@media screen and (min-width: 1049px) {
+    .brand img {
+        width: 155px;
+    } 
+    .hot-deals { 
+        height: 450px;
+    }
+    
+}
+
+@media screen and (max-width: 852px) {
+    nav ul li {
+        font-size: 9.5px; 
+    }
+    .search-divide {
+        width: 74%;
+    }
+    .basket-divide {
+        width: 23%;
+    }
+}
+
+@media screen and (max-width: 769px) {
+
+    header {
+        height: 150px;
+    }
+
+    .header-top {
+        height: 110px;
+    }
+
+    .header-search { 
+        height: 47px;
+    }
+
+    .brand {
+        position: absolute;
+        margin-top: 6px;
+    }
+
+    .header-basket-search {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .top-menu {
+        height: 63px;
+    }    
+
+    .header-search { 
+        width: 100%;
+    }
+
+    .search-divide i {
+        margin-top: 15px;
+    }
+
+    .search-divide {
+        width: 74%;
+    }
+
+    .basket-divide {
+        width: auto;
+        margin-left: 1%;
+        float: right;
+    }
+
+    .left-collections {
+        position: absolute;
+        display: none;
+        width: 44%;
+    }
+
+    .new-collections {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    nav ul li {
+        font-size: 8px;
+    }
+
+    .toggle-category { 
+        font-size: 13px;
+    }
+
+    .header-basket-search ul { 
+        margin-top: 13px;
+        font-size: 13px;
+    }
+
+    .collection-content-item h3, .collection-content-item p {
+        margin: 7px 0 0 0;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    #mobile-hidden {
+        display: none;
+    }
+    .all-new-products {
+        margin-left: 0;
+        width: 99%; 
+    }
+
+    .all-new-products-head h3 {
+        width: 102px;
+    }
+
+    .all-new-products-head ul { 
+        width: 69%;
+    }
+    .all-new-products-head ul li {
+        width: 20%;
+        font-size: 12px;
+    }
+    .hot-deals { 
+        height: 520px;
+    }    
+}
+
+@media screen and (max-width: 500px) {
+    .brand {
+        width: 16%;
+        margin-top: 14px;
+    }
+
+    .header-basket-search ul { 
+        font-size: 10px;
+    }
+
+    .baket-info {
+        width: 40px;
+        margin-left: 14px;
+    }  
+
+    nav ul {
+        list-style: none;
+        margin: 16px 0 0 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .top-menu {
+        height: 63px;
+        width: 80%;
+        float: right;
+    }
+
+    .top-menu ul {
+        padding: 0;
+        width: 100%;
+        float: right;
+    }
+
+    .header-basket-search ul li {
+        float: left;
+        margin: 0 1%;
+        width: 18%;
+        text-align: center;
+    }
+    .collection-content-item h3, .collection-content-item p { 
+        font-size: 10px;
+    }
+
+    .top-menu { 
+        line-height: 14px;
+    }
+
+    .new-collection-content {
+        height: 60px;
+    }
+    .toggle-category {
+        font-size: 8.5px;
+    }
+
+    .basket-divide i { 
+        font-size: 9px;
+    }
+    
+    .baket-info {
+        width: 37px;
+    }
+}
